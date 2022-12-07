@@ -12,9 +12,14 @@ I am a computer engineer working to create safe and private IoT that puts artifi
 
 ---
 
-Computer Science and Engineering
-
-Technology Leadership and Policy
-
-Santa Clara University
-
+Selected Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
